@@ -1,0 +1,11 @@
+[user]
+	name = Heliosai9
+	email = 130946614+HeliosAI9@users.noreply.github.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false
+[core]
+	editor = code --wait

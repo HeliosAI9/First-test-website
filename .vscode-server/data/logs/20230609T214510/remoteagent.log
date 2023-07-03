@@ -1,0 +1,68 @@
+2023-06-09 21:45:10.864 [info] 
+
+
+
+
+2023-06-09 21:45:10.895 [info] Extension host agent started.
+2023-06-09 21:45:11.060 [info] [127.0.0.1][ecac6c68][ManagementConnection] New connection established.
+2023-06-09 21:45:11.638 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] New connection established.
+2023-06-09 21:45:11.646 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> Launched Extension Host Process.
+2023-06-09 23:32:23.464 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-06-09 23:32:25.906 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-06-10 00:31:42.542 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-06-10 00:31:42.629 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-06-10 00:32:43.836 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-06-10 00:32:43.903 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-06-10 00:37:15.388 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /favicon.ico [33m404[0m 1.374 ms - 150[0m
+
+2023-06-10 00:56:11.063 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/pages/flex6 [33m404[0m 1.685 ms - 183[0m
+
+2023-06-10 00:56:44.154 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/pages/flex6 [33m404[0m 1.094 ms - 183[0m
+
+2023-06-10 00:58:07.181 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/pages/flex6 [33m404[0m 4.536 ms - 183[0m
+
+2023-06-10 00:58:10.422 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/pages/flex6 [33m404[0m 0.800 ms - 183[0m
+
+2023-06-10 01:03:10.636 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/style.css [33m404[0m 2.008 ms - 181[0m
+
+2023-06-10 01:11:18.212 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/solution.css [33m404[0m 2.223 ms - 184[0m
+
+2023-06-10 01:22:57.483 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/style.css [33m404[0m 1.849 ms - 181[0m
+
+2023-06-10 01:23:47.677 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/style.css?_cacheOverride=1686448083147 [33m404[0m 6.524 ms - 181[0m
+
+2023-06-10 01:24:12.002 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/flex7.css [33m404[0m 2.238 ms - 181[0m
+
+2023-06-10 01:24:15.714 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/flex7.css?_cacheOverride=1686448111198 [33m404[0m 0.963 ms - 181[0m
+
+2023-06-10 01:24:19.664 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/flex7.css [33m404[0m 1.024 ms - 181[0m
+
+2023-06-10 03:42:17.691 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-06-10 03:42:22.588 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-06-10 04:29:16.656 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-06-10 04:29:21.298 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-06-10 06:17:18.437 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-06-10 06:17:18.522 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-06-10 06:18:25.193 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-06-10 06:18:25.357 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-06-10 07:26:19.231 [warning] No ptyHost heartbeat after 6 seconds
+2023-07-02 21:20:15.610 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-07-02 21:20:15.731 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-07-02 21:28:34.310 [info] [127.0.0.1][ecac6c68][ManagementConnection] The client has reconnected.
+2023-07-02 21:28:34.437 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] The client has reconnected.
+2023-07-02 21:33:36.247 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/google.com [33m404[0m 2.480 ms - 182[0m
+
+2023-07-02 21:33:38.346 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/google.com [33m404[0m 0.896 ms - 182[0m
+
+2023-07-02 21:33:39.607 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/google.com [33m404[0m 0.916 ms - 182[0m
+
+2023-07-02 21:34:07.101 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/pages/images/dog.jpg [33m404[0m 1.157 ms - 186[0m
+
+2023-07-02 21:34:14.778 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/script.js [33m404[0m 1.793 ms - 175[0m
+
+2023-07-02 21:34:14.779 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/style.css [33m404[0m 2.541 ms - 175[0m
+
+2023-07-02 21:34:14.834 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /mywebsite/html-boilerplate/style.css [33m404[0m 0.760 ms - 175[0m
+
+2023-07-02 21:39:30.185 [info] [127.0.0.1][b90f9996][ExtensionHostConnection] <113> [0mGET /favicon.ico [33m404[0m 2.573 ms - 150[0m
+

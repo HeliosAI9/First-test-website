@@ -1,0 +1,59 @@
+2023-06-02 20:01:45.629 [info] 
+
+
+
+
+2023-06-02 20:01:45.703 [info] Extension host agent started.
+2023-06-02 20:01:45.834 [info] [127.0.0.1][54dee3e9][ManagementConnection] New connection established.
+2023-06-02 20:01:47.243 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] New connection established.
+2023-06-02 20:01:47.253 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> Launched Extension Host Process.
+2023-06-02 20:04:42.676 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /favicon.ico [33m404[0m 5.126 ms - 150[0m
+
+2023-06-02 20:12:18.405 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/barberry.png [33m404[0m 0.834 ms - 191[0m
+
+2023-06-02 20:12:18.407 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/chilli.png [33m404[0m 0.638 ms - 189[0m
+
+2023-06-02 20:12:18.412 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/pepper.png [33m404[0m 0.807 ms - 189[0m
+
+2023-06-02 20:12:18.417 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/saffron.png [33m404[0m 0.800 ms - 190[0m
+
+2023-06-02 20:13:51.226 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /home/odinstudent/mywebsite/html-boilerplate/images/barberry.png [33m404[0m 0.772 ms - 202[0m
+
+2023-06-02 20:13:51.228 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/chilli.png [33m404[0m 0.585 ms - 189[0m
+
+2023-06-02 20:13:51.230 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/pepper.png [33m404[0m 0.744 ms - 189[0m
+
+2023-06-02 20:13:51.233 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/saffron.png [33m404[0m 0.641 ms - 190[0m
+
+2023-06-02 20:14:14.726 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/chilli.png [33m404[0m 1.481 ms - 189[0m
+
+2023-06-02 20:14:14.727 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/pepper.png [33m404[0m 0.991 ms - 189[0m
+
+2023-06-02 20:14:14.727 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] <122> [0mGET /mywebsite/html-boilerplate/pages/images/saffron.png [33m404[0m 0.616 ms - 190[0m
+
+2023-06-02 20:26:18.472 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-02 20:26:18.609 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-02 20:26:23.694 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-02 20:26:23.778 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-02 21:45:02.763 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-02 21:45:02.926 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-03 01:47:50.909 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-03 01:47:51.030 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-03 01:59:04.176 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-03 01:59:07.068 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-03 02:00:08.882 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-03 02:00:11.042 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-03 02:00:18.205 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-03 02:00:33.414 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-03 03:05:08.352 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-03 03:05:08.493 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-05 18:35:47.668 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-05 18:35:49.057 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-06 10:14:11.580 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-06 10:14:11.725 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-06 10:14:24.459 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-06 10:14:24.553 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-06 14:02:42.670 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.
+2023-06-06 14:02:42.841 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-09 07:15:56.727 [info] [127.0.0.1][c4ccbd64][ExtensionHostConnection] The client has reconnected.
+2023-06-09 07:15:56.955 [info] [127.0.0.1][54dee3e9][ManagementConnection] The client has reconnected.

@@ -1,0 +1,158 @@
+/* Styles from your previous assignments */
+.first-element {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+  }
+  
+  .second-element {
+    background-color: yellow;
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+  }
+  
+  .odd {
+    background-color: lightpink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+  }
+  
+  #second {
+    color: blue;
+    font-size: 36px;
+  }
+  
+  #fourth {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Styles from the new assignment */
+  .avatar.proportioned {
+    width: 300px;
+    aspect-ratio: 1/1; /* Maintain original square proportions */
+  }
+  
+  .avatar.distorted {
+    width: 200px;
+    height: 400px; /* Height is twice the width */
+  }
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Update the value to 1fr */
+    gap: 0; /* Set the gap value to 0 */
+    justify-items: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+  }
+  
+  div p {
+    background-color: rgb(255, 0, 0);
+    color: rgb(64, 0, 255);
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2.para,
+  h2.small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  
+  h2.para {
+    font-size: 22px;
+  }
+  
+  .button.confirm {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+  }
+  
+  h2.text .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+  h3.class {
+    background-color: aquamarine;
+    padding: 10px;
+    border: 30px solid red;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .one {
+    background-color: aquamarine;
+    padding: 10px;
+    border: 30px solid red;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+  }
+  
+  .two {
+    display: inline;
+    width: 100px;
+    height: 160px;
+    padding: 18px;
+  }
+  
+  h4.class {
+    display: inline;
+    width: 100px;
+    height: 160px;
+    padding: 18px;
+  }
+  
+  .three {
+    display: inline-block;
+    width: 100px;
+    height: 160px;
+    padding: 18px;
+  }
+  
+  .four {
+    display: block;
+    width: 100px;
+    height: 160px;
+    padding: 18px;
+  }
+
+  .assignment-div {
+    padding: 32px;
+    max-width: 100px;
+    margin: 0 auto;
+  }
+  
+  .assignment-div.div-one {
+    margin-bottom: 12px;
+    background: pink;
+    border: 3px solid blue;
+    padding: 32px;
+  
+  }
+  
+  .assignment-div.div-two {
+    margin-bottom: 5px;
+    background: lightblue;
+    border: 3px solid purple;
+  }
+  
+  .assignment-div.div-three {
+    margin-left: left;
+    background: peachpuff;
+    border: 3px solid brown;
+    width: 200px;
+    padding: 32px;
+    
+  }
+  

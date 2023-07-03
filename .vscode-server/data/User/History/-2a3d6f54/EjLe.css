@@ -1,0 +1,211 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Section */
+
+.hero {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Background Video */
+
+.backgroundContainer {
+  position: relative;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.bgm {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Header Bar */
+
+.headerBar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logocontainer {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logoImageContainer {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.logoImage {
+  width: 100%;
+  height: auto;
+}
+
+#audioController {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.sourceContainer {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.link {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.sourceC {
+  margin-bottom: 5px;
+}
+
+.sourcesLink {
+  color: #333;
+  text-decoration: none;
+}
+
+.dm {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Right Bar */
+
+.rightBarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rightBarStuff {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.pexels-caleb-oquendo-2927993,
+.pexels-deeana-arts-14620689,
+.pexels-diego-f-parra-15305871,
+.produces {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pexels-cristian-13554463,
+.pexels-jo-kassis-4633495,
+.pexels-caleb-oquendo-3010317,
+.pexels-samuel-sweet-6269765 {
+  width: 25px;
+  height: 25px;
+}
+
+/* Main Content Sections */
+
+.layer {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+
+.layer h3 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.layer p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.layer ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin: 0;
+}
+
+.testimonial p:last-child {
+  margin-top: 10px;
+}
+
+/* Footer Section */
+
+.footerLayer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

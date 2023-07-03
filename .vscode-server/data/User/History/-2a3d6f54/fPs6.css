@@ -1,0 +1,143 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Section */
+
+.hero {
+  /* Styles for the hero section */
+}
+
+.hero-title {
+  /* Styles for the hero title */
+}
+
+.hero-subtitle {
+  /* Styles for the hero subtitle */
+}
+
+.hero-button {
+  /* Styles for the hero button */
+}
+
+/* Background Video */
+
+.backgroundContainer {
+  /* Styles for the background container */
+}
+
+#background {
+  /* Styles for the background video */
+}
+
+.bgm {
+  /* Styles for the background music */
+}
+
+/* Header Bar */
+
+.headerBar {
+  /* Styles for the header bar */
+}
+
+.logocontainer {
+  /* Styles for the logo container */
+}
+
+.logoImageContainer {
+  /* Styles for the logo image container */
+}
+
+.logoImage {
+  /* Styles for the logo image */
+}
+
+#audioController {
+  /* Styles for the audio controller */
+}
+
+.sourceContainer {
+  /* Styles for the source container */
+}
+
+.link {
+  /* Styles for the link */
+}
+
+.dropdowncontent {
+  /* Styles for the dropdown content */
+}
+
+.sourceC {
+  /* Styles for the source content */
+}
+
+.sourcesLink {
+  /* Styles for the sources link */
+}
+
+.dm {
+  /* Styles for the message */
+}
+
+/* Right Bar */
+
+.rightBarContainer {
+  /* Styles for the right bar container */
+}
+
+.rightBarStuff {
+  /* Styles for the right bar stuff */
+}
+
+.pexels-caleb-oquendo-2927993,
+.pexels-deeana-arts-14620689,
+.pexels-diego-f-parra-15305871,
+.produces {
+  /* Styles for the right bar links */
+}
+
+.pexels-cristian-13554463,
+.pexels-jo-kassis-4633495,
+.pexels-caleb-oquendo-3010317,
+.pexels-samuel-sweet-6269765 {
+  /* Styles for the right bar images */
+}
+
+/* Main Content Sections */
+
+.layer1 {
+  /* Styles for layer 1 */
+}
+
+.layer2 {
+  /* Styles for layer 2 */
+}
+
+.layer3 {
+  /* Styles for layer 3 */
+}
+
+.testimonial {
+  /* Styles for testimonials */
+}
+
+.layer4 {
+  /* Styles for layer 4 */
+}
+
+/* Footer Section */
+
+.footerLayer {
+  /* Styles for the footer section */
+}

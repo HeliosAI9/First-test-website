@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website Title</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="first.js"></script>
+</head>
+<body>
+  <section class="hero">
+    <h1 class="hero-title">Puerto Rico Website</h1>
+    <p class="hero-subtitle">Discover the Best of Web Development</p>
+    <a href="#" class="hero-button">Get Started</a>
+  </section>
+
+  <div class="backgroundContainer">
+    <video id="background" muted autoplay loop>
+        <source src="resources/pexels-deeana-arts-14702977 (2160p).mp4" type="video/mp4">
+    </video>
+    
+    <audio id="backgroundMusic" class="bgm" src="resources/touhouBackgroundMusicMixed.mp3" loop onclick="audioController()"></audio>    
+  </div>
+
+  <div class="headerBar">
+    <div class="leftBarContainer">
+        <a class="logoContainer" href=".">
+          <div class="logoImage">
+            Viequez
+          </div>
+          <div class="logoImageContainer">
+            <img class="logoImage" src="resources/pexels-jo-kassis-4633495.jpg" alt="Logo">
+          </div>
+        </a>
+        <img id="audioController" src="resources/audioControllerOn.png" onclick="audioController(); imageChange();" />
+    </div>
+    <div class="sourceContainer">
+      <button class="link" onclick="showOrHide()">Sources</button>
+      <div class="dropdownContent">
+        <div class="aboutCopyright">
+          aboutCopyright 
+        </div>
+      </div> 
+    <div class="rightBarContainer">
+      <div class = "rightBarStuff">
+        <a class = "about hamburgerStuff" href = "#">About</a>
+        <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+        <a class = "characters hamburgerStuff" href = "#">Characters</a>
+        <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+        <a class = "music hamburgerStuff" href = "#">FAQ</a>
+        <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+        <a class = "contact hamburgerStuff" href = "#">Contact</a>
+    </div>
+    <div class = "menuHamburger"><div class = "menuHamburgerBtn"></div></div>
+    </div>
+  </div>
+
+  <div class="layer1">
+    <h3>About Me</h3>
+    <p>This is my test to see if I actually learned something and also wanted to implement a little from my home.</p>
+  </div>
+
+  <div class="layer2">
+    <h3>My Services</h3>
+    <ul>
+      <li>Web Design</li>
+      <li>Front-end Development</li>
+      <li>Responsive Layouts</li>
+      <li>SEO Optimization</li>
+    </ul>
+  </div>
+
+  <div class="layer3">
+    <h3>Testimonials</h3>
+    <div class="testimonial">
+      <p>"Working with John was a great experience. He delivered exactly what I wanted and exceeded my expectations."</p>
+      <p>- Jane Doe</p>
+    </div>
+    <div class="testimonial">
+      <p>"I highly recommend John's services. He is professional, reliable, and produces top-notch work."</p>
+      <p>- John Smith</p>
+    </div>
+  </div>
+
+  <div class="layer4">
+    <h3>Contact Me</h3>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+  
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <div class="footerLayer">
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </div>
+
+  <script src="first.js"></script>
+</body>
+</html>

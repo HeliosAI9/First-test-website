@@ -1,0 +1,474 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Section */
+
+.hero {
+  /* Styles for the hero section */
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.hero-title {
+  /* Styles for the hero title */
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  /* Styles for the hero subtitle */
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  /* Styles for the hero button */
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #333;
+}
+
+
+/* Background Video */
+
+.backgroundContainer {
+  /* Styles for the background container */
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#background {
+  /* Styles for the background video */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bgm {
+  /* Styles for the background music */
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: filter 0.3s ease;
+}
+
+.bgm:hover {
+  filter: brightness(0.8);
+}
+
+
+/* Header Bar */
+
+.headerBar {
+  /* Styles for the header bar */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+
+.logocontainer {
+  /* Styles for the logo container */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logoImageContainer {
+  /* Styles for the logo image container */
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+}
+
+.logoImage {
+  /* Styles for the logo image */
+  width: 2em;
+}
+
+#audioController {
+  /* Styles for the audio controller */
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 100%;
+  margin: 0 1em 0 2em;
+}
+
+.sourceContainer {
+  /* Styles for the source container */
+  color: white;
+  position: absolute;
+  left: 18em;
+}
+
+.link {
+  /* Styles for the link */
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3em;
+  border: 3px solid;
+  border-radius: 1em;
+  position: relative;
+  font-family: "izayoi";
+  animation: colorChange 0.75s infinite;
+  animation-direction: alternate;
+}
+
+.link:hover {
+  /* Styles for the link on hover */
+  background: white;
+}
+
+.dropdowncontent {
+  /* Styles for the dropdown content */
+  position: absolute;
+  left: -18em;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  display: none;
+  flex-direction: column;
+  width: 30em;
+  text-align: center;
+  color: white;
+}
+
+.sourceC {
+  /* Styles for the source content */
+  font-size: 1.2em;
+  color: rgb(255, 139, 139);
+}
+
+.sourcesLink {
+  /* Styles for the sources link */
+  position: relative;
+  color: rgb(98, 148, 255);
+  word-wrap: break-word;
+}
+
+.dm {
+  /* Styles for the message */
+  font-size: 1.2em;
+  color: rgb(211, 247, 164);
+}
+
+
+/* Right Bar Container */
+
+.rightBarContainer {
+  /* Styles for the right bar container */
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 1rem;
+  z-index: 9;
+}
+
+.rightBarStuff {
+  /* Styles for the right bar stuff */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rightBarStuff a {
+  /* Styles for the right bar links */
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-bottom: 0.5rem;
+}
+
+.separator {
+  /* Styles for the separator images */
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.menuHamburger {
+  /* Styles for the menu hamburger */
+  display: none;
+}
+
+.menuHamburgerBtn {
+  /* Styles for the menu hamburger button */
+  width: 30px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.menuHamburgerBtn:before,
+.menuHamburgerBtn:after,
+.menuHamburgerBtn div {
+  /* Styles for the menu hamburger button elements */
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+
+.menuHamburgerBtn:before {
+  /* Styles for the top bar of the menu hamburger button */
+  transform-origin: top left;
+}
+
+.menuHamburgerBtn:after {
+  /* Styles for the bottom bar of the menu hamburger button */
+  transform-origin: bottom left;
+}
+
+.menuHamburgerBtn div {
+  /* Styles for the middle bar of the menu hamburger button */
+  transform-origin: center;
+}
+
+.menuHamburgerBtn.active:before {
+  /* Styles for the top bar of the active menu hamburger button */
+  transform: rotate(45deg);
+}
+
+.menuHamburgerBtn.active:after {
+  /* Styles for the bottom bar of the active menu hamburger button */
+  transform: rotate(-45deg);
+}
+
+.menuHamburgerBtn.active div {
+  /* Styles for the middle bar of the active menu hamburger button */
+  transform: scaleX(0);
+}
+
+@media screen and (max-width: 768px) {
+  .rightBarContainer {
+    /* Additional styles for the right bar container on smaller screens */
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+
+  .rightBarStuff {
+    /* Additional styles for the right bar stuff on smaller screens */
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .menuHamburger {
+    /* Additional styles for the menu hamburger on smaller screens */
+    display: block;
+  }
+}
+
+
+/* Main Content Sections */
+
+/* Layer 1 Section */
+
+.layer1 {
+  /* Styles for the Layer 1 section */
+}
+
+.layer1 h3 {
+  /* Styles for the Layer 1 heading */
+}
+
+.layer1 p {
+  /* Styles for the Layer 1 paragraph */
+}
+
+
+/* Layer 2 Section */
+
+.layer2 {
+  /* Styles for the Layer 2 section */
+}
+
+.layer2 h3 {
+  /* Styles for the Layer 2 heading */
+}
+
+.layer2 ul {
+  /* Styles for the Layer 2 unordered list */
+}
+
+.layer2 li {
+  /* Styles for the Layer 2 list items */
+}
+
+
+/* Layer 3 Section */
+
+.layer3 {
+  /* Styles for the Layer 3 section */
+}
+
+.layer3 h3 {
+  /* Styles for the Layer 3 heading */
+}
+
+.testimonial {
+  /* Styles for the testimonial section */
+}
+
+.testimonial p {
+  /* Styles for the testimonial paragraphs */
+}
+
+
+/* Layer 4 Section */
+
+.layer4 {
+  /* Styles for the Layer 4 section */
+}
+
+.layer4 h3 {
+  /* Styles for the Layer 4 heading */
+}
+
+.layer4 form {
+  /* Styles for the form */
+}
+
+.layer4 label {
+  /* Styles for the form labels */
+}
+
+.layer4 input,
+.layer4 textarea {
+  /* Styles for the form inputs and textareas */
+}
+
+.layer4 button[type="submit"] {
+  /* Styles for the submit button */
+}
+
+
+/* Footer Section */
+
+.footerLayer {
+  /* Styles for the footer layer */
+}
+
+.footerLayer p {
+  /* Styles for the footer text */
+}
+
+/* Additional Styles */
+
+.updateContainer {
+  /* Styles for the update container */
+}
+
+.h {
+  /* Styles for the heading */
+}
+
+/* About Section */
+
+.layer1 {
+  /* Styles for the layer1 section */
+}
+
+.layer1 h3 {
+  /* Styles for the heading within layer1 */
+}
+
+.layer1 p {
+  /* Styles for the paragraph within layer1 */
+}
+
+/* Services Section */
+
+.layer2 {
+  /* Styles for the layer2 section */
+}
+
+.layer2 h3 {
+  /* Styles for the heading within layer2 */
+}
+
+.layer2 ul {
+  /* Styles for the unordered list within layer2 */
+}
+
+.layer2 li {
+  /* Styles for the list items within layer2 */
+}
+
+/* Testimonials Section */
+
+.layer3 {
+  /* Styles for the layer3 section */
+}
+
+.layer3 h3 {
+  /* Styles for the heading within layer3 */
+}
+
+.testimonial {
+  /* Styles for the testimonial section within layer3 */
+}
+
+.testimonial p {
+  /* Styles for the paragraphs within the testimonial section */
+}

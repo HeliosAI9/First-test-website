@@ -1,0 +1,19 @@
+2023-07-02 21:50:21.518 [info] 
+
+
+
+
+2023-07-02 21:50:21.544 [info] Extension host agent started.
+2023-07-02 21:50:21.729 [info] [127.0.0.1][61841117][ManagementConnection] New connection established.
+2023-07-02 21:50:22.220 [info] [127.0.0.1][e0bdc9d5][ExtensionHostConnection] New connection established.
+2023-07-02 21:50:22.225 [info] [127.0.0.1][e0bdc9d5][ExtensionHostConnection] <113> Launched Extension Host Process.
+2023-07-02 21:50:45.092 [info] Getting Manifest... ms-azuretools.vscode-docker
+2023-07-02 21:50:51.926 [info] Installing extension: ms-azuretools.vscode-docker
+2023-07-02 21:51:56.069 [info] Extension signature is verified: ms-azuretools.vscode-docker
+2023-07-02 21:51:56.259 [info] Extracted extension to /home/odinstudent/.vscode-server/extensions/.64bfb1c8-3f1b-43a3-a5b5-5a5e3bcacb25: ms-azuretools.vscode-docker
+2023-07-02 21:51:56.263 [info] Renamed to /home/odinstudent/.vscode-server/extensions/ms-azuretools.vscode-docker-1.25.2
+2023-07-02 21:51:56.271 [info] Extracting extension completed. ms-azuretools.vscode-docker
+2023-07-02 21:51:56.278 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2023-07-02 21:51:56.287 [info] Marked extension as uninstalled ms-azuretools.vscode-docker-1.25.1
+2023-07-02 21:54:01.824 [info] [127.0.0.1][61841117][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-07-02 21:54:01.866 [info] [127.0.0.1][e0bdc9d5][ExtensionHostConnection] <113> Extension Host Process exited with code: 0, signal: null.

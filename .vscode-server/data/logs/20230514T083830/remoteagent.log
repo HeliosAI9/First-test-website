@@ -1,0 +1,35 @@
+2023-05-14 08:38:30.365 [info] 
+
+
+
+
+2023-05-14 08:38:30.391 [info] Extension host agent started.
+2023-05-14 08:38:30.444 [info] [127.0.0.1][43f5a39b][ManagementConnection] New connection established.
+2023-05-14 08:38:30.543 [info] [127.0.0.1][306ed79c][ExtensionHostConnection] New connection established.
+2023-05-14 08:38:30.620 [info] [127.0.0.1][306ed79c][ExtensionHostConnection] <4499> Launched Extension Host Process.
+2023-05-14 08:38:44.344 [info] [127.0.0.1][43f5a39b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-14 08:38:46.067 [info] [127.0.0.1][f597d30a][ManagementConnection] New connection established.
+2023-05-14 08:38:46.511 [info] [127.0.0.1][84fcaa34][ExtensionHostConnection] New connection established.
+2023-05-14 08:38:46.517 [info] [127.0.0.1][84fcaa34][ExtensionHostConnection] <4545> Launched Extension Host Process.
+2023-05-14 08:38:48.533 [info] [127.0.0.1][306ed79c][ExtensionHostConnection] <4499> Extension Host Process exited with code: 0, signal: null.
+2023-05-14 09:45:36.746 [info] [127.0.0.1][c7ec378e][ManagementConnection] New connection established.
+2023-05-14 09:45:37.242 [info] [127.0.0.1][f399684f][ExtensionHostConnection] New connection established.
+2023-05-14 09:45:37.248 [info] [127.0.0.1][f399684f][ExtensionHostConnection] <7588> Launched Extension Host Process.
+2023-05-14 09:48:25.435 [info] [127.0.0.1][c7ec378e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-14 09:48:25.617 [info] [127.0.0.1][f399684f][ExtensionHostConnection] <7588> Extension Host Process exited with code: 0, signal: null.
+2023-05-14 09:48:59.559 [info] [127.0.0.1][a6cd1166][ManagementConnection] New connection established.
+2023-05-14 09:49:00.175 [info] [127.0.0.1][e025e913][ExtensionHostConnection] New connection established.
+2023-05-14 09:49:00.182 [info] [127.0.0.1][e025e913][ExtensionHostConnection] <7721> Launched Extension Host Process.
+2023-05-14 09:51:36.924 [info] [127.0.0.1][a6cd1166][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-14 09:51:37.029 [info] [127.0.0.1][e025e913][ExtensionHostConnection] <7721> Extension Host Process exited with code: 0, signal: null.
+2023-05-14 10:14:59.828 [info] Getting Manifest... ritwickdey.liveserver
+2023-05-14 10:15:04.963 [info] Installing extension: ritwickdey.liveserver
+2023-05-14 10:16:02.885 [info] Extension signature is verified: ritwickdey.liveserver
+2023-05-14 10:16:05.459 [info] Extracted extension to /home/odinstudent/.vscode-server/extensions/.d0d6309a-d14b-4221-8009-a933484bc2e9: ritwickdey.liveserver
+2023-05-14 10:16:05.477 [info] Renamed to /home/odinstudent/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2023-05-14 10:16:05.479 [info] Extracting extension completed. ritwickdey.liveserver
+2023-05-14 10:16:05.485 [info] Extension installed successfully: ritwickdey.liveserver
+2023-05-14 10:28:18.195 [info] [127.0.0.1][84fcaa34][ExtensionHostConnection] <4545> [0mGET /favicon.ico [33m404[0m 1.228 ms - 150[0m
+
+2023-05-14 11:09:01.331 [info] [127.0.0.1][f597d30a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-14 11:09:01.482 [info] [127.0.0.1][84fcaa34][ExtensionHostConnection] <4545> Extension Host Process exited with code: 0, signal: null.
